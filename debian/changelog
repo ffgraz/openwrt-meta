@@ -1,3 +1,9 @@
+openwrt-meta (0.2) unstable; urgency=medium
+
+  * add dependency on ncurses-dev, libssl-dev, libz-dev
+
+ -- Alexander List <alex@debian.org>  Sun, 26 Oct 2014 19:55:13 +0000
+
 openwrt-meta (0.1) unstable; urgency=medium
 
   * Initial release.

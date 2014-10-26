@@ -10,7 +10,7 @@ Package: openwrt-builddeps
 Architecture: all
 Section: devel
 Priority: optional
-Depends: ${misc:Depends}, build-essential, git-core, subversion
+Depends: ${misc:Depends}, build-essential, git-core, subversion, ncurses-dev, libssl-dev, libz-dev
 Description: Build dependencies for OpenWRT
  This metapackage will always depend on the tools required
  to build the OpenWRT build root as described in
