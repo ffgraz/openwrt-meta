@@ -1,0 +1,18 @@
+Source: openwrt-meta
+Section: devel
+Priority: optional
+Maintainer: Alexander List <alex@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Vcs-Git: http://github.com/ffgraz/openwrt-meta.git
+
+Package: openwrt-builddeps
+Architecture: all
+Section: devel
+Priority: optional
+Depends: ${misc:Depends}, build-essential, git-core, subversion
+Description: Build dependencies for OpenWRT
+ This metapackage will always depend on the tools required
+ to build the OpenWRT build root as described in
+ http://wiki.openwrt.org/doc/howto/buildroot.exigence
+

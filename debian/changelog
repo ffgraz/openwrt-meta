@@ -1,0 +1,5 @@
+openwrt-builddeps (0.1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Alexander List <alex@debian.org>  Sun, 26 Oct 2014 17:21:36 +0000
