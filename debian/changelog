@@ -1,8 +1,14 @@
+openwrt-meta (0.4) unstable; urgency=medium
+
+  * add dependency on gettext 
+
+ -- Alexander List <alex@debian.org>  Thu, 13 Nov 2014 01:23:30 +0000
+
 openwrt-meta (0.3) unstable; urgency=low
 
   * add dependency on unzip
 
- -- Alexander List <alex@thinkpad>  Wed, 29 Oct 2014 20:55:29 +0000
+ -- Alexander List <alex@debian.org>  Wed, 29 Oct 2014 20:55:29 +0000
 
 openwrt-meta (0.2) unstable; urgency=medium
 
